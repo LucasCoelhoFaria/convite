@@ -49,12 +49,12 @@ window.onload = function() {
   // Adiciona um ouvinte para o evento 'ended'
   audio.addEventListener('ended', function() {
     // Redireciona para outra página após o áudio terminar
-    window.location.pathname = "/fim.html";
+    window.location.pathname = "convite/fim.html";
   });
 };
 
 function redirecionarParaOutroEndpoint() {
-  window.location.pathname = "/index.html";
+  window.location.pathname = "convite/home.html";
 }
 
 // Exibe a primeira imagem imediatamente

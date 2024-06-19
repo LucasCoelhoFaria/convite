@@ -18,7 +18,7 @@ window.onload = function() {
         showBox(currentBox);
         currentBox = currentBox + 1;
         if(currentBox == 3){
-            window.location.pathname = "/slide.html"
+            window.location.pathname = "convite/slide.html"
         }
         setTimeout(cycleBoxes, 4000);
     }
