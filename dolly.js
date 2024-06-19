@@ -32,8 +32,8 @@ function addRandomPhrase() {
   let randomPhrase = phrases[randomIndex];
 
   // Verificar se a frase tem mais de 50 caracteres e truncá-la se necessário
-  if (randomPhrase.length > 50) {
-    randomPhrase = randomPhrase.substring(0, 50); // Trunca para os primeiros 50 caracteres
+  if (randomPhrase.length > 70) {
+    randomPhrase = randomPhrase.substring(0, 70); // Trunca para os primeiros 50 caracteres
   }
 
   const phraseElement = document.createElement('div');
